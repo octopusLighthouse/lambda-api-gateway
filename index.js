@@ -1,4 +1,5 @@
 import { buildResponse } from './response.js';
+const healthPath = '/health';
 
 exports.handler = async (input) => {
   console.log(JSON.stringify(input));
